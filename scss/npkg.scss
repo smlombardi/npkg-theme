@@ -1,0 +1,61 @@
+@font-face {
+  font-family: LeagueGothicRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/League_Gothic-webfont.eot");
+  src: url("../fonts/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/League_Gothic-webfont.woff") format("woff"), url("../fonts/League_Gothic-webfont.ttf") format("truetype"), url("../fonts/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg"); }
+
+
+@import 'variables';
+@import 'nav';
+@import 'pages/about';
+@import 'pages/products';
+
+body {
+  background-color: #eee;
+  margin: 60px;
+}
+.container {
+  background-color: #fff;
+  padding: 0;
+}
+
+.home {
+.checker-header {
+  display: flex;
+  height: 315px;
+  border-bottom: 2px solid #ebdea6;
+  background: #fff url("../img/checkerboard70.png") -2px 0 repeat;
+  align-items: center;
+  justify-content: center;
+}
+}
+.full-height {
+  min-height: 100vh;
+}
+
+header {
+  .row {
+    padding: 30px 0;
+  }
+}
+
+// box at top right of all pages
+.section-box {
+  padding-top: 20px;
+  //margin-left: -40px;
+}
+
+
+
+.dmbs-footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #777;
+
+  padding: 0 36px 36px;
+  .copyright {
+    font-size: 11px;
+    padding-top: 50px;
+  }
+}

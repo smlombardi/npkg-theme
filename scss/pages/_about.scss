@@ -1,0 +1,26 @@
+// about page
+
+.page-about {
+  header {
+    background-color: #e7d893;
+  }
+  .navbar-nav > li.active > a {
+    color: rgb(225, 180, 10);
+  }
+  // body
+  .left {
+    background-color: #f1e9c5;
+    min-height: 450px;
+    padding: 10px 100px;
+
+    h1 {
+      font-family: 'CheapPine-Sans', impact, sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+  .right {
+    background: #f1e9c5 url('../img/marty.jpg') right top no-repeat;
+    min-height: 450px;
+  }
+}

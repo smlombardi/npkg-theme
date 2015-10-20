@@ -1,0 +1,37 @@
+.nav > li > a {
+  padding: 15px 61px;
+}
+.navbar {
+  margin-bottom: -3px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #fff;
+}
+.navbar-nav {
+  margin-left: 20px;
+  > li {
+    > a {
+      font-family: 'CheapPine-Sans', impact, sans-serif;
+      font-size: 30px;
+      font-weight: normal;
+      padding-left: 0;
+      padding-right: 67px;
+      text-transform: uppercase;
+      color: #000;
+      @media (min-width: $screen-md) {
+          padding-right: 32px;
+        }
+    }
+    &:last-child > a {
+      padding-right: 0;
+    }
+  }
+}
+.navbar-default {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
+}

@@ -1,0 +1,47 @@
+@font-face { font-family: LeagueGothicRegular; font-weight: normal; font-style: normal; src: url("../fonts/League_Gothic-webfont.eot"); src: url("../fonts/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/League_Gothic-webfont.woff") format("woff"), url("../fonts/League_Gothic-webfont.ttf") format("truetype"), url("../fonts/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg"); }
+.nav > li > a { padding: 15px 61px; }
+
+.navbar { margin-bottom: -3px; }
+
+.nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background-color: #fff; }
+
+.navbar-nav { margin-left: 20px; }
+.navbar-nav > li > a { font-family: 'CheapPine-Sans', impact, sans-serif; font-size: 30px; font-weight: normal; padding-left: 0; padding-right: 67px; text-transform: uppercase; color: #000; }
+@media (min-width: 992px) { .navbar-nav > li > a { padding-right: 32px; } }
+.navbar-nav > li:last-child > a { padding-right: 0; }
+
+.navbar-default { margin-bottom: 0; padding-bottom: 0; background-color: transparent; border-color: transparent; }
+
+.page-about header { background-color: #e7d893; }
+.page-about .navbar-nav > li.active > a { color: #e1b40a; }
+.page-about .left { background-color: #f1e9c5; min-height: 450px; padding: 10px 100px; }
+.page-about .left h1 { font-family: 'CheapPine-Sans', impact, sans-serif; text-transform: uppercase; text-align: center; }
+.page-about .right { background: #f1e9c5 url("../img/marty.jpg") right top no-repeat; min-height: 450px; }
+
+.toc-stripe { height: 450px; width: 19.2%; margin-right: 1%; background-color: #ccc; float: left; }
+.toc-stripe.last { margin-right: 0; }
+.toc-stripe.cookware { background-color: #a58899; }
+.toc-stripe.tabletop { background-color: #eac662; }
+.toc-stripe.preparation { background-color: #a5b45d; }
+.toc-stripe.cooltools { background-color: #e1925d; }
+.toc-stripe.misc { background-color: #647197; }
+
+.page-products header { background-color: #e6d893; }
+.page-products .navbar-nav > li.active > a { color: #79516e; }
+
+body { background-color: #eee; margin: 60px; }
+
+.container { background-color: #fff; padding: 0; }
+
+.home .checker-header { display: -webkit-flex; display: -ms-flexbox; display: flex; height: 315px; border-bottom: 2px solid #ebdea6; background: #fff url("../img/checkerboard70.png") -2px 0 repeat; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.full-height { min-height: 100vh; }
+
+header .row { padding: 30px 0; }
+
+.section-box { padding-top: 20px; }
+
+.dmbs-footer { margin-top: 30px; font-size: 13px; color: #777; padding: 0 36px 36px; }
+.dmbs-footer .copyright { font-size: 11px; padding-top: 50px; }
+
+/*# sourceMappingURL=npkg.css.map */
