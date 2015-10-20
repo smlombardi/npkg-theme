@@ -35,8 +35,15 @@ body {
 }
 
 header {
-  .row {
-    padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  .logo-left {
+    margin-right: 40px;
+  }
+  .section-box {
+    margin-bottom: 20px;
   }
 }
 

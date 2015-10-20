@@ -37,7 +37,9 @@ body { background-color: #eee; margin: 60px; }
 
 .full-height { min-height: 100vh; }
 
-header .row { padding: 30px 0; }
+header { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding: 20px 0; }
+header .logo-left { margin-right: 40px; }
+header .section-box { margin-bottom: 20px; }
 
 .section-box { padding-top: 20px; }
 

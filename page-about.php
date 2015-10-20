@@ -8,7 +8,7 @@
 <div class="row dmbs-content">
 
     <?php //left sidebar ?>
-    <?php get_sidebar( 'left' ); ?>
+    <?php get_sidebar('left'); ?>
 
     <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
@@ -17,7 +17,7 @@
 
 
         <?php // theloop
-        if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <div class="row">
           <div class="col-md-7 left">
@@ -42,7 +42,7 @@
     </div><!-- end main -->
 
     <?php //get the right sidebar ?>
-    <?php get_sidebar( 'right' ); ?>
+    <?php get_sidebar('right'); ?>
 
 </div>
 <!-- end content container -->
