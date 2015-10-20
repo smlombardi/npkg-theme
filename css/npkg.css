@@ -6,8 +6,8 @@
 .nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background-color: #fff; }
 
 .navbar-nav { margin-left: 20px; }
-.navbar-nav > li > a { font-family: 'CheapPine-Sans', impact, sans-serif; font-size: 30px; font-weight: normal; padding-left: 0; padding-right: 67px; text-transform: uppercase; color: #000; }
-@media (min-width: 992px) { .navbar-nav > li > a { padding-right: 32px; } }
+.navbar-nav > li > a { font-family: 'CheapPine-Sans', impact, sans-serif; font-size: 26px; font-weight: normal; padding-left: 0; padding-right: 47px; text-transform: uppercase; color: #000; }
+@media (max-width: 992px) { .navbar-nav > li > a { font-size: 24px; padding-right: 20px; } }
 .navbar-nav > li:last-child > a { padding-right: 0; }
 
 .navbar-default { margin-bottom: 0; padding-bottom: 0; background-color: transparent; border-color: transparent; }
@@ -46,7 +46,9 @@ body { background-color: #eee; margin: 60px; }
 .full-height { min-height: 100vh; }
 
 header { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding: 20px 0; }
+@media (max-width: 992px) { header { padding: 10px 20px; } }
 header .logo-left { margin-right: 40px; }
+@media (max-width: 992px) { header .logo-left { margin-right: 10px; } }
 header .section-box { margin-bottom: 20px; }
 
 .section-box { padding-top: 20px; }

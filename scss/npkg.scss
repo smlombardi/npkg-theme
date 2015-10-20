@@ -41,8 +41,14 @@ header {
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+  @include breakpoint(papa-bear) {
+    padding: 10px 20px;
+  }
   .logo-left {
     margin-right: 40px;
+    @include breakpoint(papa-bear) {
+      margin-right: 10px;
+    }
   }
   .section-box {
     margin-bottom: 20px;
