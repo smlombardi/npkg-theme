@@ -112,6 +112,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/box-products.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58595,
+		"inputAbbreviatedPath": "\/img\/box-products.png",
+		"outputAbbreviatedPath": "\/img\/box-products.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/checkerboard140.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -196,6 +207,61 @@
 		"initialSize": 49527,
 		"inputAbbreviatedPath": "\/img\/marty.jpg",
 		"outputAbbreviatedPath": "\/img\/marty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products-cookware.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7624,
+		"inputAbbreviatedPath": "\/img\/products-cookware.jpg",
+		"outputAbbreviatedPath": "\/img\/products-cookware.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products-cooltools.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7916,
+		"inputAbbreviatedPath": "\/img\/products-cooltools.jpg",
+		"outputAbbreviatedPath": "\/img\/products-cooltools.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products-misc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7001,
+		"inputAbbreviatedPath": "\/img\/products-misc.jpg",
+		"outputAbbreviatedPath": "\/img\/products-misc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products-preparation.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6364,
+		"inputAbbreviatedPath": "\/img\/products-preparation.jpg",
+		"outputAbbreviatedPath": "\/img\/products-preparation.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products-tabletop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7526,
+		"inputAbbreviatedPath": "\/img\/products-tabletop.jpg",
+		"outputAbbreviatedPath": "\/img\/products-tabletop.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

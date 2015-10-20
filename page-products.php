@@ -20,11 +20,26 @@
         if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
         <div class="row">
-        <div class="toc-stripe cookware">&nbsp;</div>
-        <div class="toc-stripe tabletop">&nbsp;</div>
-        <div class="toc-stripe preparation">&nbsp;</div>
-        <div class="toc-stripe cooltools">&nbsp;</div>
-        <div class="toc-stripe misc last">&nbsp;</div>
+        <div class="toc-stripe cookware">
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-cookware.jpg" class="img-responsive" alt="" />
+          <div class="ttl">Cookware<br>&amp; Bakeware</div>
+        </div>
+        <div class="toc-stripe tabletop">
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-tabletop.jpg" class="img-responsive" alt="" />
+          <div class="ttl">Tabletop</div>
+        </div>
+        <div class="toc-stripe preparation">
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-preparation.jpg" class="img-responsive" alt="" />
+          <div class="ttl">Preparation</div>
+        </div>
+        <div class="toc-stripe cooltools">
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-cooltools.jpg" class="img-responsive" alt="" />
+          <div class="ttl">Cool Tools</div>
+        </div>
+        <div class="toc-stripe misc last">
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-misc.jpg" class="img-responsive" alt="" />
+          <div class="ttl">Miscellaneous</div>
+        </div>
         </div>
 
 

@@ -18,13 +18,15 @@
 .page-about .left h1 { font-family: 'CheapPine-Sans', impact, sans-serif; text-transform: uppercase; text-align: center; }
 .page-about .right { background: #f1e9c5 url("../img/marty.jpg") right top no-repeat; min-height: 450px; }
 
-.toc-stripe { height: 450px; width: 19.2%; margin-right: 1%; background-color: #ccc; float: left; }
+.toc-stripe { height: 450px; width: 19.2%; margin-right: 1%; background-color: #ccc; float: left; text-align: center; padding: 20px; }
 .toc-stripe.last { margin-right: 0; }
+.toc-stripe.last .ttl { margin-right: 4px; padding-left: -4px; }
 .toc-stripe.cookware { background-color: #a58899; }
 .toc-stripe.tabletop { background-color: #eac662; }
 .toc-stripe.preparation { background-color: #a5b45d; }
 .toc-stripe.cooltools { background-color: #e1925d; }
 .toc-stripe.misc { background-color: #647197; }
+.toc-stripe .ttl { margin-top: 25px; color: #fff; font-family: 'CheapPine-Sans', impact, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 34px; font-weight: normal; line-height: 1; }
 
 .page-products header { background-color: #e6d893; }
 .page-products .navbar-nav > li.active > a { color: #79516e; }

@@ -4,14 +4,30 @@
   margin-right: 1%;
   background-color: #ccc;
   float: left;
+  text-align: center;
+  padding: 20px;
   &.last {
     margin-right: 0;
+    .ttl {
+      margin-right: 4px;
+      padding-left: -4px;
+    }
   }
   &.cookware { background-color: $cookware;}
   &.tabletop { background-color: $tabletop;}
   &.preparation { background-color: $preparation;}
   &.cooltools { background-color: $cooltools;}
   &.misc { background-color: $misc;}
+  .ttl {
+    margin-top: 25px;
+    color: #fff;
+    font-family: 'CheapPine-Sans', impact, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+    font-size: 34px;
+    font-weight: normal;
+    line-height: 1;
+  }
 }
 
 .page-products {
