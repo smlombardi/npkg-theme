@@ -23,6 +23,7 @@
         <div class="toc-stripe cookware">
           <img src="<?php bloginfo('template_directory'); ?>/img/products-cookware.jpg" class="img-responsive" alt="" />
           <div class="ttl">Cookware<br>&amp; Bakeware</div>
+          <?php wp_nav_menu( 'menu=cookware' ); ?>
         </div>
         <div class="toc-stripe tabletop">
           <img src="<?php bloginfo('template_directory'); ?>/img/products-tabletop.jpg" class="img-responsive" alt="" />

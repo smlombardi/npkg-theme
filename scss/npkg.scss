@@ -7,6 +7,7 @@
 
 
 @import 'variables';
+@import 'mixins';
 @import 'nav';
 @import 'pages/about';
 @import 'pages/products';
@@ -14,6 +15,7 @@
 body {
   background-color: #eee;
   margin: 60px;
+
 }
 .container {
   background-color: #fff;
