@@ -39,8 +39,14 @@ $screen-md-max:              ($screen-lg-min - 1);
 
 
 //colors
-$cookware: rgb(165, 136, 153);
-$tabletop: rgb(234, 198, 98);
-$preparation: rgb(165, 180, 93);
-$cooltools: rgb(225, 146, 93);
-$misc: rgb(100, 113, 151);
+$cookware:          rgb(165, 136, 153);
+$tabletop:          rgb(234, 198, 98);
+$preparation:       rgb(165, 180, 93);
+$cooltools:         rgb(225, 146, 93);
+$misc:              rgb(100, 113, 151);
+
+$cookware-light:    rgb(204, 188, 196);
+$tabletop-light:    rgb(245, 227, 177);
+$preparation-light: rgb(215, 218, 179);
+$cooltools-light:   rgb(237, 200, 168);
+$misc-light:        rgb(171, 174, 188);

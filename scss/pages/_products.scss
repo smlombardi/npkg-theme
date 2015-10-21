@@ -1,3 +1,7 @@
+//////////////////////////////////////////////////
+// toc page
+//////////////////////////////////////////////////
+
 .toc-stripe {
   height: 450px;
   width: 19.2%;
@@ -6,71 +10,155 @@
   float: left;
   text-align: center;
   padding: 20px;
+
   @include breakpoint(papa-bear) {
     display: flex;
     align-items: center;
     float: none;
     width: 100%;
     height: 160px;
-      text-align: left;
+    text-align: left;
+
     .ttl {
-      margin: 20px 20px;
+      margin: 20px;
     }
-
   }
-
-
 
   &.last {
     margin-right: 0;
+
     .ttl {
-      margin-right: 4px;
-      padding-left: -4px;
+      text-indent: -5px;
     }
   }
-  &.cookware { background-color: $cookware;}
-  &.tabletop { background-color: $tabletop;}
-  &.preparation { background-color: $preparation;}
-  &.cooltools { background-color: $cooltools;}
-  &.misc { background-color: $misc;}
+
+  &.cookware {
+    background-color: $cookware;
+  }
+
+  &.tabletop {
+    background-color: $tabletop;
+  }
+
+  &.preparation {
+    background-color: $preparation;
+  }
+
+  &.cooltools {
+    background-color: $cooltools;
+  }
+
+  &.misc {
+    background-color: $misc;
+  }
+
+  &.cookware-light {
+    background-color: $cookware-light;
+  }
+
+  &.tabletop-light {
+    background-color: $tabletop-light;
+  }
+
+  &.preparation-light {
+    background-color: $preparation-light;
+  }
+
+  &.cooltools-light {
+    background-color: $cooltools-light;
+  }
+
+  &.misc-light {
+    background-color: $misc-light;
+  }
+
   .ttl {
     margin-top: 25px;
     color: #fff;
     font-family: 'CheapPine-Sans', impact, sans-serif;
     -webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 34px;
     font-weight: normal;
     line-height: 1;
   }
+
   ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
     margin-top: 15px;
+
     li {
       margin-bottom: 10px;
+
       a {
         color: #000;
       }
     }
   }
-
 }
-
-
-@media (min-width: $screen-xs) {
-    // float: none;
-    // width: 100%;
-    // height: 165px;
-    background-color: red;
-  }
 
 .page-products {
   header {
     background-color: rgb(230, 216, 147);
   }
-  .navbar-nav > li.active > a {
+
+  .navbar-nav > li.active > a > a {
     color: rgb(121, 81, 110);
+  }
+}
+
+//////////////////////////////////////////////////
+// sub pages
+//////////////////////////////////////////////////
+// global
+
+.toc-stripe {
+
+  &.sub-stripe {
+    width: 19.2%;
+    margin-right: 0.5%;
+    height: 448px;
+  }
+
+  &.product-box {
+      margin-right: .9%;
+    h4 {
+      font-size: 14px;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    ul {
+      li {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 5px;
+      }
+    }
+
+    .ttl {
+      margin-top: 0;
+      color: #000;
+    }
+  }
+}
+
+.hero-image {
+  width: 50%;
+  height: 450px;
+  float: left;
+  margin-right: 0;
+}
+
+//cookware & bakeware
+li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a {
+  color: rgb(121, 81, 110);
+}
+
+.page-pastry-bakeware {
+  header {
+    background-color: rgb(230, 216, 147);
   }
 }
