@@ -112,24 +112,44 @@
 //////////////////////////////////////////////////
 // sub pages
 //////////////////////////////////////////////////
-// global
 
-.toc-stripe {
-
-  &.sub-stripe {
-    width: 19.2%;
-    margin-right: 0.5%;
-    height: 448px;
+.sub-stripe {
+  width: 19.2%;
+  margin-right: 0.5%;
+  height: 448px;
+  //--------
+  @include breakpoint(papa-bear) {
+    display: flex;
+    align-items: center;
+    float: none;
+    width: 100%;
+    height: 160px;
+    text-align: left;
+    .ttl {
+      margin: 0 0 0 20px;
+    }
+    ul {
+      columns: 3;
+      margin-left: -50px;
+    }
+    &.stripe2 {
+      height: 100px;
+      .ttl {
+        margin: 0 35px 0 0;
+      }
+      ul {
+        margin-left: 55px;
+      }
+    }
   }
-
-  &.product-box {
+  //--------
+  &.stripe2 {
       margin-right: .9%;
     h4 {
       font-size: 14px;
       font-style: italic;
       font-weight: normal;
     }
-
     ul {
       li {
         font-size: 14px;
@@ -137,7 +157,6 @@
         margin-bottom: 5px;
       }
     }
-
     .ttl {
       margin-top: 0;
       color: #000;
@@ -150,14 +169,46 @@
   height: 450px;
   float: left;
   margin-right: 0;
+  @include breakpoint(papa-bear) {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0;
+  }
 }
+
+
+/////////////////////////////
+/// For specific products
+/////////////////////////////
 
 //cookware & bakeware
 li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a {
   color: rgb(121, 81, 110);
 }
 
-.page-pastry-bakeware {
+@mixin stripes($which) {
+
+}
+
+.cookware {
+  .sub-stripe {
+    background-color: $cookware;
+    &.second {
+      background-color: $cookware-light;
+    }
+  }
+}
+.cooltools {
+  .sub-stripe {
+    background-color: $cooltools;
+    &.second {
+      background-color: $cooltools-light;
+    }
+  }
+}
+
+.parent-products {
   header {
     background-color: rgb(230, 216, 147);
   }

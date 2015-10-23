@@ -15,6 +15,9 @@
 body {
   background-color: #eee;
   margin: 60px;
+  @include breakpoint(papa-bear) {
+    margin: 0;
+  }
 
 }
 .container {

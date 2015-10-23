@@ -67,6 +67,24 @@ if(!function_exists( '_wp_render_title_tag')) {
 
 }
 
+
+add_filter('body_class','body_class_section');
+
+function body_class_section($classes) {
+    global $wpdb, $post;
+    if (is_page()) {
+        if ($post->post_parent) {
+            $parent  = end(get_post_ancestors($current_page_id));
+        } else {
+            $parent = $post->ID;
+        }
+        $post_data = get_post($parent, ARRAY_A);
+        $classes[] = 'parent-' . $post_data['post_name'];
+    }
+    return $classes;
+}
+
+
 ////////////////////////////////////////////////////////////////////
 // Register Custom Navigation Walker include custom menu widget to use walkerclass
 ////////////////////////////////////////////////////////////////////

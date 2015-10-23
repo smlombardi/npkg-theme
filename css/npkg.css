@@ -41,19 +41,33 @@
 .page-products header { background-color: #e6d893; }
 .page-products .navbar-nav > li.active > a > a { color: #79516e; }
 
-.toc-stripe.sub-stripe { width: 19.2%; margin-right: 0.5%; height: 448px; }
-.toc-stripe.product-box { margin-right: .9%; }
-.toc-stripe.product-box h4 { font-size: 14px; font-style: italic; font-weight: normal; }
-.toc-stripe.product-box ul li { font-size: 14px; line-height: 1.3; margin-bottom: 5px; }
-.toc-stripe.product-box .ttl { margin-top: 0; color: #000; }
+.sub-stripe { width: 19.2%; margin-right: 0.5%; height: 448px; }
+@media (max-width: 992px) { .sub-stripe { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; float: none; width: 100%; height: 160px; text-align: left; }
+  .sub-stripe .ttl { margin: 0 0 0 20px; }
+  .sub-stripe ul { -webkit-columns: 3; -moz-columns: 3; columns: 3; margin-left: -50px; }
+  .sub-stripe.stripe2 { height: 100px; }
+  .sub-stripe.stripe2 .ttl { margin: 0 35px 0 0; }
+  .sub-stripe.stripe2 ul { margin-left: 55px; } }
+.sub-stripe.stripe2 { margin-right: .9%; }
+.sub-stripe.stripe2 h4 { font-size: 14px; font-style: italic; font-weight: normal; }
+.sub-stripe.stripe2 ul li { font-size: 14px; line-height: 1.3; margin-bottom: 5px; }
+.sub-stripe.stripe2 .ttl { margin-top: 0; color: #000; }
 
 .hero-image { width: 50%; height: 450px; float: left; margin-right: 0; }
+@media (max-width: 992px) { .hero-image { width: 100%; height: auto; float: none; margin: 0; } }
 
 li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a { color: #79516e; }
 
-.page-pastry-bakeware header { background-color: #e6d893; }
+.cookware .sub-stripe { background-color: #a58899; }
+.cookware .sub-stripe.second { background-color: #ccbcc4; }
+
+.cooltools .sub-stripe { background-color: #e1925d; }
+.cooltools .sub-stripe.second { background-color: #edc8a8; }
+
+.parent-products header { background-color: #e6d893; }
 
 body { background-color: #eee; margin: 60px; }
+@media (max-width: 992px) { body { margin: 0; } }
 
 .container { background-color: #fff; padding: 0; }
 
