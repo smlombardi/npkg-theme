@@ -160,6 +160,8 @@
     .ttl {
       margin-top: 0;
       color: #000;
+      font-size: 32px;
+      line-height: 1;
     }
   }
 }
@@ -204,6 +206,14 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
     background-color: $cooltools;
     &.second {
       background-color: $cooltools-light;
+    }
+  }
+}
+.preparation {
+  .sub-stripe {
+    background-color: $preparation;
+    &.second {
+      background-color: $preparation-light;
     }
   }
 }

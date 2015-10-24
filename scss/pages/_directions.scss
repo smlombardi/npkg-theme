@@ -1,0 +1,26 @@
+.page-directions {
+  header {
+    background-color: #e7d893;
+  }
+  .navbar-nav > li.active > a {
+    color: rgb(225, 180, 10);
+  }
+  // body
+  .left {
+    background-color: #f1e9c5;
+    min-height: 448px;
+    padding: 10px 40px;
+    font-size: 12px;
+    a {
+      color: #000;
+    }
+
+    h3 {
+      font-family: 'CheapPine-Sans', impact, sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+
+}

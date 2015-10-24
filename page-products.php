@@ -33,6 +33,7 @@
         <div class="toc-stripe preparation">
           <img src="<?php bloginfo('template_directory'); ?>/img/products-preparation.jpg" class="img-responsive" alt="" />
           <div class="ttl">Preparation</div>
+          <?php wp_nav_menu( 'menu=preparation' ); ?>
         </div>
         <div class="toc-stripe cooltools">
           <img src="<?php bloginfo('template_directory'); ?>/img/products-cooltools.jpg" class="img-responsive" alt="" />
