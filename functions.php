@@ -127,6 +127,39 @@ function body_class_section($classes) {
             'after_title' => '</h3>',
         ));
 
+
+////////////////////////////////////////////////////////////////////
+// Custom post types
+////////////////////////////////////////////////////////////////////
+
+add_action( 'init', 'create_post_type' );
+
+function create_post_type() {
+	register_post_type( vintageitem,
+		array(
+			'labels' => array(
+				'name' => __( 'Vintage Items' ),
+				'singular_name' => __( 'Vintage Item' ),
+				'add_new' => _x('Add Vintage Item', 'Vintage Items'),
+				'add_new_item' => __('Add Vintage Item'),
+				'edit' => _x('Edit Vintage Items', 'Vintage Items'),
+				'edit_item' => __('Edit Vintage Item'),
+				'new_item' => __('New Vintage Item'),
+				'view' => _x('View Vintage Item', 'Vintage Items'),
+				'view_item' => __('View Vintage Item')
+			),
+		'menu_icon' => 'dashicons-pressthis',
+		'public' => true,
+		'has_archive' => true,
+		'supports' => array('title','editor','thumbnail', 'excerpt'),
+		'capability_type' => 'page',
+		'map_meta_cap' => true
+		)
+	);
+}
+
+
+
 ////////////////////////////////////////////////////////////////////
 // Add the page slug to the body class for css
 ////////////////////////////////////////////////////////////////////

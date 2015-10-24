@@ -20,24 +20,68 @@
         if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <div class="row">
-          <div class="col-md-5 left">
-            
-            <?php the_content(); ?>
-
-          </div>
-          <div class="col-md-7 right">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.0518330088867!2d-73.35824368461431!3d41.6762239860024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e78c8edc6cb1db%3A0x93ceab5574a49414!2sNew+Preston+Kitchen+Goods!5e0!3m2!1sen!2sus!4v1445649467863" width="563" height="448" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
+          <div class="col-md-12 ">
+          <?php the_content(); ?>
         </div>
+      <?php endwhile; ?>
+      <?php else: ?>
+
+          <?php get_404_template(); ?>
+
+      <?php endif; ?>
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- now a loop to display all the events -->
+
+            <?php
+                // Contruct the loop
+                // note: this is apparently key: set paged variable and add to query args
+                $paged = ( get_query_var( 'paged' ) ) ? get_query_var('paged') : 1;
+                $args = array( 'post_type' => 'vintageitem', 'posts_per_page' => 60 , 'orderby' => 'date', 'order' => 'DESC' ,'paged' => $paged);
+                $loop = new WP_Query( $args ); ?>
+
+                <ul class="small-block-grid-2 large-block-grid-5">
+
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+                <?php
+                  // process some data from the fields
+                  $event_date = get_field('event_date') ;
+                  $fancy_date = date('F j, Y',strtotime($event_date));
+                  if (get_field('display_date') != '') {
+                      $print_date = get_field('display_date');
+                  } else {
+                      $print_date = $fancy_date;
+                  }
+                  if (get_field('event_time') != '') {
+                      $time = get_field('event_time');
+                  } else {
+                      $time = 'TBA';
+                } ?>
+
+                <li>
+                  <?php
+                  if ( has_post_thumbnail() ) { the_post_thumbnail('full', array('class' => 'img-responsive')); } 
+                    the_title( '<h4 class="vintage-title">', '</h4>' );
+                    the_content();
+                  ?>
+                </li>
+
+
+                <?php endwhile; ?>
 
 
 
-        <?php endwhile; ?>
-        <?php else: ?>
 
-            <?php get_404_template(); ?>
 
-        <?php endif; ?>
+
+        </div>
+      </div>
+
+
+
+
 
     </div><!-- end main -->
 

@@ -75,6 +75,10 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
 .page-directions .left a { color: #000; }
 .page-directions .left h3 { font-family: 'CheapPine-Sans', impact, sans-serif; text-transform: uppercase; text-align: center; font-size: 30px; }
 
+.page-vintage header { background-color: #e6d893; }
+
+li.current_page_item a { color: #902e49; }
+
 body { background-color: #eee; margin: 60px; }
 @media (max-width: 992px) { body { margin: 0; } }
 
