@@ -1,7 +1,19 @@
-// about page
+.page-join {
 
-.page-about {
+  .safe-unsubscribe {
+    font-size: 10px;
+    margin-top: 30px;
+  }
 
+  form {
+    width: 100%;
+    .btn {
+      background-color: #f1e9c5;
+      border-color: #f1e9c5;
+      padding-left: 0;
+      margin-top: 5px;
+    }
+  }
   header {
     background-color: #e7d893;
   }
@@ -14,25 +26,28 @@
     min-height: 450px;
     padding: 5px 60px 10px;
     @include breakpoint(baby-bear) {
-      padding: 10px 20px;
+      min-height: 340px;
+      padding: 20px 40px;
     }
 
-    h1 {
+    h3 {
       font-family: 'CheapPine-Sans', impact, sans-serif;
       text-transform: uppercase;
       text-align: center;
+      font-size: 30px;
     }
+
   }
   .right {
-    background: #f1e9c5 url('../img/marty.jpg') right top no-repeat;
-    height: 473px;
+    background: #f1e9c5 url('../img/join-image.jpg') right top no-repeat;
+    height: 448px;
     background-size: cover;
 
     @include breakpoint(papa-bear) {
         width: 720px;
         background-size: cover;
     }
-    @include breakpoint(papa-bear) {
+    @include breakpoint(baby-bear) {
         width: auto;
         background-size: cover;
     }

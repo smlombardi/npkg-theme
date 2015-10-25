@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php get_template_part('template-part', 'head'); ?>
+<?php get_template_part('template-part', 'head-plain'); ?>
 
 <?php get_template_part('template-part', 'topnav'); ?>
 
@@ -10,7 +10,7 @@
         <?php //left sidebar ?>
         <?php get_sidebar( 'left' ); ?>
 
-        <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
+        <div class="col-md-12 dmbs-main">
          <h1><?php _e('Sorry This Page Does Not Exist!','devdmbootstrap3'); ?></h1>
         </div>
 

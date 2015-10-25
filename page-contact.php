@@ -20,12 +20,13 @@
         if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <div class="row">
-          <div class="col-md-7 left">
+          <div class="col-md-5 left">
+
             <?php the_content(); ?>
 
           </div>
-          <div class="col-md-5 right">
-            &nbsp;
+          <div class="col-md-7 right">
+            
           </div>
         </div>
 

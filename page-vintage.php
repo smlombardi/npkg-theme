@@ -13,9 +13,6 @@
     <div class="col-md-<?php devdmbootstrap3_main_content_width(); ?> dmbs-main">
 
 
-
-
-
         <?php // theloop
         if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -31,7 +28,7 @@
       <?php endif; ?>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 indented">
           <!-- now a loop to display all the events -->
 
             <?php
@@ -41,47 +38,23 @@
                 $args = array( 'post_type' => 'vintageitem', 'posts_per_page' => 60 , 'orderby' => 'date', 'order' => 'DESC' ,'paged' => $paged);
                 $loop = new WP_Query( $args ); ?>
 
-                <ul class="small-block-grid-2 large-block-grid-5">
+                <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5">
 
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-                <?php
-                  // process some data from the fields
-                  $event_date = get_field('event_date') ;
-                  $fancy_date = date('F j, Y',strtotime($event_date));
-                  if (get_field('display_date') != '') {
-                      $print_date = get_field('display_date');
-                  } else {
-                      $print_date = $fancy_date;
-                  }
-                  if (get_field('event_time') != '') {
-                      $time = get_field('event_time');
-                  } else {
-                      $time = 'TBA';
-                } ?>
-
-                <li>
+                <li class="vintage-item">
                   <?php
-                  if ( has_post_thumbnail() ) { the_post_thumbnail('full', array('class' => 'img-responsive')); } 
-                    the_title( '<h4 class="vintage-title">', '</h4>' );
-                    the_content();
-                  ?>
+                  if ( has_post_thumbnail() ) { the_post_thumbnail('full', array('class' => 'img-responsive')); }
+                    the_title( '<h4 class="vintage-title">', '</h4>' );?>
+                    <?php the_content(); ?>
+                    <div class="price"><?php the_field('price'); ?></div>
                 </li>
 
-
                 <?php endwhile; ?>
-
-
-
-
-
+              </ul>
 
         </div>
       </div>
-
-
-
-
 
     </div><!-- end main -->
 

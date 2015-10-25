@@ -149,6 +149,7 @@ function create_post_type() {
 				'view_item' => __('View Vintage Item')
 			),
 		'menu_icon' => 'dashicons-pressthis',
+    'menu_position' => 5,
 		'public' => true,
 		'has_archive' => true,
 		'supports' => array('title','editor','thumbnail', 'excerpt'),

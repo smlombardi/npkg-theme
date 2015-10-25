@@ -13,6 +13,8 @@
 @import 'pages/products';
 @import 'pages/directions';
 @import 'pages/vintage';
+@import 'pages/contact';
+@import 'pages/join';
 
 body {
   background-color: #eee;
@@ -20,11 +22,31 @@ body {
   @include breakpoint(papa-bear) {
     margin: 0;
   }
-
 }
+
+.error404 {
+  header {
+    background-color: #e7d893;
+    .logo-left {
+      margin-right: 0;
+    }
+  }
+  .dmbs-main {
+    background-color: #f1e9c5;
+    text-align: center;
+    padding: 50px 0;
+  }
+}
+
+
 .container {
   background-color: #fff;
   padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .home {
