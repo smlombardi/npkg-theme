@@ -101,6 +101,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bar-tools.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61449,
+		"inputAbbreviatedPath": "\/img\/bar-tools.jpg",
+		"outputAbbreviatedPath": "\/img\/bar-tools.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/box-about.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -200,6 +211,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cookware-bakeware.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227511,
+		"inputAbbreviatedPath": "\/img\/cookware-bakeware.jpg",
+		"outputAbbreviatedPath": "\/img\/cookware-bakeware.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cutting-surfaces.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124894,
+		"inputAbbreviatedPath": "\/img\/cutting-surfaces.jpg",
+		"outputAbbreviatedPath": "\/img\/cutting-surfaces.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/deafaultlogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -218,6 +251,17 @@
 		"initialSize": 851,
 		"inputAbbreviatedPath": "\/img\/favicon.png",
 		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fine-cutlery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112573,
+		"inputAbbreviatedPath": "\/img\/fine-cutlery.jpg",
+		"outputAbbreviatedPath": "\/img\/fine-cutlery.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -288,6 +332,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pepper-salt-herb-mills.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280713,
+		"inputAbbreviatedPath": "\/img\/pepper-salt-herb-mills.jpg",
+		"outputAbbreviatedPath": "\/img\/pepper-salt-herb-mills.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pots-pans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247082,
+		"inputAbbreviatedPath": "\/img\/pots-pans.jpg",
+		"outputAbbreviatedPath": "\/img\/pots-pans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/products-cookware.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -339,6 +405,28 @@
 		"initialSize": 7526,
 		"inputAbbreviatedPath": "\/img\/products-tabletop.jpg",
 		"outputAbbreviatedPath": "\/img\/products-tabletop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/small-electrics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250728,
+		"inputAbbreviatedPath": "\/img\/small-electrics.jpg",
+		"outputAbbreviatedPath": "\/img\/small-electrics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tools-gadgets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227615,
+		"inputAbbreviatedPath": "\/img\/tools-gadgets.jpg",
+		"outputAbbreviatedPath": "\/img\/tools-gadgets.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

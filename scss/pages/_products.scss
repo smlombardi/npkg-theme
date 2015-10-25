@@ -166,18 +166,7 @@
   }
 }
 
-.hero-image {
-  width: 50%;
-  height: 450px;
-  float: left;
-  margin-right: 0;
-  @include breakpoint(papa-bear) {
-    width: 100%;
-    height: auto;
-    float: none;
-    margin: 0;
-  }
-}
+
 
 
 /////////////////////////////
@@ -221,5 +210,31 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
 .parent-products {
   header {
     background-color: rgb(230, 216, 147);
+  }
+}
+
+.hero-image {
+  width: 60.2%;
+  height: 448px;
+  float: left;
+  margin-right: 0;
+  background: #f1e9c5;
+  background-size: cover;
+  .page-pastry-bakeware & { background-image: url('../img/cookware-bakeware.jpg'); }
+  .page-pots-pans & { background-image: url('../img/pots-pans.jpg'); }
+  .page-fine-cutlery & { background-image: url('../img/fine-cutlery.jpg'); }
+  .page-cutting-surfaces & { background-image: url('../img/cutting-surfaces.jpg'); }
+  .page-tools-gadgets & { background-image: url('../img/tools-gadgets.jpg'); }
+  .page-small-electrics & { background-image: url('../img/small-electrics.jpg'); }
+  .page-bar-tools & { background-image: url('../img/bar-tools.jpg'); }
+  .page-pepper-salt-herb-mills & { background-image: url('../img/pepper-salt-herb-mills.jpg'); }
+
+  @include breakpoint(papa-bear) {
+      width: 720px;
+      background-size: cover;
+  }
+  @include breakpoint(baby-bear) {
+      width: auto;
+      background-size: cover;
   }
 }

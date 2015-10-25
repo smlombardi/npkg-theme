@@ -56,9 +56,6 @@
 .sub-stripe.stripe2 ul li { font-size: 14px; line-height: 1.3; margin-bottom: 5px; }
 .sub-stripe.stripe2 .ttl { margin-top: 0; color: #000; font-size: 32px; line-height: 1; }
 
-.hero-image { width: 50%; height: 450px; float: left; margin-right: 0; }
-@media (max-width: 992px) { .hero-image { width: 100%; height: auto; float: none; margin: 0; } }
-
 li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a { color: #79516e; }
 
 .cookware .sub-stripe { background-color: #a58899; }
@@ -71,6 +68,18 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
 .preparation .sub-stripe.second { background-color: #d7dab3; }
 
 .parent-products header { background-color: #e6d893; }
+
+.hero-image { width: 60.2%; height: 448px; float: left; margin-right: 0; background: #f1e9c5; background-size: cover; }
+.page-pastry-bakeware .hero-image { background-image: url("../img/cookware-bakeware.jpg"); }
+.page-pots-pans .hero-image { background-image: url("../img/pots-pans.jpg"); }
+.page-fine-cutlery .hero-image { background-image: url("../img/fine-cutlery.jpg"); }
+.page-cutting-surfaces .hero-image { background-image: url("../img/cutting-surfaces.jpg"); }
+.page-tools-gadgets .hero-image { background-image: url("../img/tools-gadgets.jpg"); }
+.page-small-electrics .hero-image { background-image: url("../img/small-electrics.jpg"); }
+.page-bar-tools .hero-image { background-image: url("../img/bar-tools.jpg"); }
+.page-pepper-salt-herb-mills .hero-image { background-image: url("../img/pepper-salt-herb-mills.jpg"); }
+@media (max-width: 992px) { .hero-image { width: 720px; background-size: cover; } }
+@media (max-width: 480px) { .hero-image { width: auto; background-size: cover; } }
 
 .page-directions header { background-color: #e7d893; }
 .page-directions .navbar-nav > li.active > a { color: #e1b40a; }
