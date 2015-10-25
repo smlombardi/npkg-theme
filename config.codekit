@@ -178,6 +178,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/candles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.34657e+06,
+		"inputAbbreviatedPath": "\/img\/candles.jpg",
+		"outputAbbreviatedPath": "\/img\/candles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/checkerboard140.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -200,6 +211,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/coffee-tea.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192755,
+		"inputAbbreviatedPath": "\/img\/coffee-tea.png",
+		"outputAbbreviatedPath": "\/img\/coffee-tea.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -207,6 +229,17 @@
 		"initialSize": 353738,
 		"inputAbbreviatedPath": "\/img\/contact-image.jpg",
 		"outputAbbreviatedPath": "\/img\/contact-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cookbooks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331394,
+		"inputAbbreviatedPath": "\/img\/cookbooks.jpg",
+		"outputAbbreviatedPath": "\/img\/cookbooks.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -244,6 +277,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dinnerware-serving-pieces.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 423623,
+		"inputAbbreviatedPath": "\/img\/dinnerware-serving-pieces.jpg",
+		"outputAbbreviatedPath": "\/img\/dinnerware-serving-pieces.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -266,6 +310,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/flatware.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302379,
+		"inputAbbreviatedPath": "\/img\/flatware.jpg",
+		"outputAbbreviatedPath": "\/img\/flatware.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/floor-coverings.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 447265,
+		"inputAbbreviatedPath": "\/img\/floor-coverings.jpg",
+		"outputAbbreviatedPath": "\/img\/floor-coverings.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/join-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -273,6 +339,17 @@
 		"initialSize": 304696,
 		"inputAbbreviatedPath": "\/img\/join-image.jpg",
 		"outputAbbreviatedPath": "\/img\/join-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/linens.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.55909e+06,
+		"inputAbbreviatedPath": "\/img\/linens.png",
+		"outputAbbreviatedPath": "\/img\/linens.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -376,13 +453,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/products-misc.jpg": {
+	"\/img\/products-miscellaneous.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7001,
-		"inputAbbreviatedPath": "\/img\/products-misc.jpg",
-		"outputAbbreviatedPath": "\/img\/products-misc.jpg",
+		"inputAbbreviatedPath": "\/img\/products-miscellaneous.jpg",
+		"outputAbbreviatedPath": "\/img\/products-miscellaneous.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -416,6 +493,17 @@
 		"initialSize": 250728,
 		"inputAbbreviatedPath": "\/img\/small-electrics.jpg",
 		"outputAbbreviatedPath": "\/img\/small-electrics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/stemware-barware.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285773,
+		"inputAbbreviatedPath": "\/img\/stemware-barware.jpg",
+		"outputAbbreviatedPath": "\/img\/stemware-barware.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

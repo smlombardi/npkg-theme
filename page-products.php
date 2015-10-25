@@ -28,6 +28,7 @@
         <div class="toc-stripe tabletop">
           <img src="<?php bloginfo('template_directory'); ?>/img/products-tabletop.jpg" class="img-responsive" alt="" />
           <div class="ttl">Tabletop</div>
+          <?php wp_nav_menu( 'menu=tabletop' ); ?>
 
         </div>
         <div class="toc-stripe preparation">
@@ -42,8 +43,9 @@
 
         </div>
         <div class="toc-stripe misc last">
-          <img src="<?php bloginfo('template_directory'); ?>/img/products-misc.jpg" class="img-responsive" alt="" />
+          <img src="<?php bloginfo('template_directory'); ?>/img/products-miscellaneous.jpg" class="img-responsive" alt="" />
           <div class="ttl">Miscellaneous</div>
+          <?php wp_nav_menu( 'menu=miscellaneous' ); ?>
         </div>
         </div>
 

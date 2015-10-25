@@ -206,6 +206,29 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
     }
   }
 }
+.tabletop {
+  .sub-stripe {
+    background-color: $tabletop;
+    &.second {
+      background-color: $tabletop-light;
+    }
+  }
+}
+.miscellaneous {
+  .sub-stripe {
+    background-color: $misc;
+    .ttl {
+      text-indent: -7px
+    }
+    &.second {
+      background-color: $misc-light;
+      .p1 {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
 
 .parent-products {
   header {
@@ -228,6 +251,13 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
   .page-small-electrics & { background-image: url('../img/small-electrics.jpg'); }
   .page-bar-tools & { background-image: url('../img/bar-tools.jpg'); }
   .page-pepper-salt-herb-mills & { background-image: url('../img/pepper-salt-herb-mills.jpg'); }
+  .page-cookbooks & { background-image: url('../img/cookbooks.jpg'); }
+  .page-floor-coverings & { background-image: url('../img/floor-coverings.jpg'); }
+  .page-coffee-tea & { background-image: url('../img/coffee-tea.jpg'); }
+  .page-flatware & { background-image: url('../img/flatware.jpg'); }
+  .page-dinnerware-serving-pieces & { background-image: url('../img/dinnerware-serving-pieces.jpg'); }
+  .page-stemware-barware & { background-image: url('../img/stemware-barware.jpg'); }
+  .page-candles & { background-image: url('../img/candles.jpg'); }
 
   @include breakpoint(papa-bear) {
       width: 720px;
