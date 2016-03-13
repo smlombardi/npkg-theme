@@ -61,7 +61,7 @@ a {
   justify-content: center;
   @include breakpoint(baby-bear) {
     flex-direction: column;
-    height: 165px;
+    // height: 165px;
     padding: 10px;
   }
 }
@@ -74,6 +74,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #e3d58e;
   padding: 20px 0;
   @include breakpoint(papa-bear) {
     padding: 10px 20px;
@@ -120,5 +121,8 @@ header {
   .copyright {
     font-size: 11px;
     padding-top: 50px;
+  }
+  @include breakpoint(baby-bear) {
+    padding: 0 15px 30px;
   }
 }
