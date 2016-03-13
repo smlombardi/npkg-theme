@@ -1,3 +1,5 @@
+// scss-lint:disable ImportantRule
+
 @font-face {
   font-family: LeagueGothicRegular;
   font-weight: normal;
@@ -57,6 +59,11 @@ a {
   background: #fff url("../img/checkerboard70.png") -2px 0 repeat;
   align-items: center;
   justify-content: center;
+  @include breakpoint(baby-bear) {
+    flex-direction: column;
+    height: 165px;
+    padding: 10px;
+  }
 }
 }
 .full-height {
@@ -71,6 +78,9 @@ header {
   @include breakpoint(papa-bear) {
     padding: 10px 20px;
   }
+  @include breakpoint(baby-bear) {
+    flex-direction: column;
+  }
   .logo-left {
     margin-right: 40px;
     @include breakpoint(papa-bear) {
@@ -79,6 +89,17 @@ header {
   }
   .section-box {
     margin-bottom: 20px;
+  }
+}
+
+.tp-bgimg {
+  background-position: top  left !important;
+  background-size: contain !important;
+}
+
+@include breakpoint(baby-bear) {
+  #rev_slider_1_1_wrapper {
+    height: 175px !important;
   }
 }
 

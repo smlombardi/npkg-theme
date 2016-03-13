@@ -36,3 +36,21 @@
   background-color: transparent;
   border-color: transparent;
 }
+
+.navbar-toggle {
+  color: #000;
+  background-color: #f1e9c5;
+  z-index: 1000;
+  border: 1px solid #000;
+  margin-right: 10px;
+  span {
+    background-color: #000;
+    z-index: 1010;
+  }
+}
+.menu-label {
+  float: left;
+  font-family: LeagueGothicRegular;
+  font-size: 2.3em;
+  padding: 5px 0 0 10px;
+}

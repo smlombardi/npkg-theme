@@ -12,6 +12,11 @@
 
 .navbar-default { margin-bottom: 0; padding-bottom: 0; background-color: transparent; border-color: transparent; }
 
+.navbar-toggle { color: #000; background-color: #f1e9c5; z-index: 1000; border: 1px solid #000; margin-right: 10px; }
+.navbar-toggle span { background-color: #000; z-index: 1010; }
+
+.menu-label { float: left; font-family: LeagueGothicRegular; font-size: 2.3em; padding: 5px 0 0 10px; }
+
 .page-about header { background-color: #e7d893; }
 .page-about .navbar-nav > li.active > a { color: #e1b40a; }
 .page-about .left { background-color: #f1e9c5; min-height: 450px; padding: 5px 60px 10px; }
@@ -146,15 +151,20 @@ body { background-color: #eee; margin: 60px; }
 a { color: #000; text-decoration: none; }
 
 .home .checker-header { display: -webkit-flex; display: -ms-flexbox; display: flex; height: 315px; border-bottom: 2px solid #ebdea6; background: #fff url("../img/checkerboard70.png") -2px 0 repeat; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+@media (max-width: 480px) { .home .checker-header { -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; height: 165px; padding: 10px; } }
 
 .full-height { min-height: 100vh; }
 
 header { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding: 20px 0; }
 @media (max-width: 992px) { header { padding: 10px 20px; } }
+@media (max-width: 480px) { header { -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; } }
 header .logo-left { margin-right: 40px; }
 @media (max-width: 992px) { header .logo-left { margin-right: 10px; } }
 header .section-box { margin-bottom: 20px; }
 
+.tp-bgimg { background-position: top  left !important; background-size: contain !important; }
+
+@media (max-width: 480px) { #rev_slider_1_1_wrapper { height: 175px !important; } }
 .section-box { padding-top: 20px; }
 
 .dmbs-footer { margin-top: 30px; font-size: 13px; color: #777; padding: 0 36px 36px; }

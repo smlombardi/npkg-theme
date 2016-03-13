@@ -5,6 +5,9 @@
         <nav class="navbar" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
+                  <div class="menu-label hidden-md hidden-lg">
+                    MENU
+                  </div>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
                         <span class="sr-only"><?php _e('Toggle navigation','devdmbootstrap3'); ?></span>
                         <span class="icon-bar"></span>
