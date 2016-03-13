@@ -175,7 +175,7 @@ header .logo-left { margin-right: 40px; }
 @media (max-width: 992px) { header .logo-left { margin-right: 10px; } }
 header .section-box { margin-bottom: 20px; }
 
-.tp-bgimg { background-position: top  left !important; background-size: contain !important; }
+.tp-bgimg { background-position: top left !important; background-size: contain !important; }
 
 @media (max-width: 480px) { #rev_slider_1_1_wrapper { height: 175px !important; } }
 .section-box { padding-top: 20px; }
@@ -183,5 +183,7 @@ header .section-box { margin-bottom: 20px; }
 .dmbs-footer { margin-top: 30px; font-size: 13px; color: #777; padding: 0 36px 36px; }
 .dmbs-footer .copyright { font-size: 11px; padding-top: 50px; }
 @media (max-width: 480px) { .dmbs-footer { padding: 0 15px 30px; } }
+
+@media (max-width: 768px) { .sub-stripe.stripe2 ul li { line-height: 1; } }
 
 /*# sourceMappingURL=npkg.css.map */
