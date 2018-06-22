@@ -539,11 +539,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo-left.png": {
+	"\/img\/logo-left@2x.png": {
 		"ft": 32768,
-		"iS": 66821,
+		"iS": 259274,
 		"oA": 0,
-		"oAP": "\/img\/logo-left.png",
+		"oAP": "\/img\/logo-left@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -592,6 +592,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/npkg-logo.png": {
+		"ft": 32768,
+		"iS": 48647,
+		"oA": 0,
+		"oAP": "\/img\/npkg-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/npkg-logo@2x.png": {
+		"ft": 32768,
+		"iS": 131570,
+		"oA": 0,
+		"oAP": "\/img\/npkg-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/pepper-salt-herb-mills.jpg": {
