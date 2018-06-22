@@ -129,3 +129,15 @@ header {
     line-height: 1;
   }
 }
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    > li {
+      float: none;
+    }
+  }
+}
