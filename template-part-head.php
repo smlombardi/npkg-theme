@@ -16,7 +16,8 @@
 
 
     <div class="section-box">
-      <img src="<?php bloginfo('template_directory'); ?>/img/box-<?php echo(get_the_slug()); ?>.png" alt="" class="img-responsive">
+    <?php $img = get_template_directory_uri() . '/img/box-' . get_the_slug();?>
+      <img src="<?php echo $img; ?>.png" srcset="<?php echo $img; ?>.png 1x, <?php echo $img; ?>@2x.png 2x" class="img-responsive">
     </div>
 
 </header>

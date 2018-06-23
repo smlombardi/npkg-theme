@@ -299,7 +299,7 @@
 		},
 	"\/img\/box-about.png": {
 		"ft": 32768,
-		"iS": 48799,
+		"iS": 59646,
 		"oA": 0,
 		"oAP": "\/img\/box-about.png",
 		"oF": 0,
@@ -308,9 +308,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/box-about@2x.png": {
+		"ft": 32768,
+		"iS": 123717,
+		"oA": 0,
+		"oAP": "\/img\/box-about@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/box-contact.png": {
 		"ft": 32768,
-		"iS": 63952,
+		"iS": 52283,
 		"oA": 0,
 		"oAP": "\/img\/box-contact.png",
 		"oF": 0,
@@ -319,9 +330,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/box-contact@2x.png": {
+		"ft": 32768,
+		"iS": 111169,
+		"oA": 0,
+		"oAP": "\/img\/box-contact@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/box-directions.png": {
 		"ft": 32768,
-		"iS": 69865,
+		"iS": 65993,
 		"oA": 0,
 		"oAP": "\/img\/box-directions.png",
 		"oF": 0,
@@ -330,11 +352,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/box-join.png": {
+	"\/img\/box-directions@2x.png": {
 		"ft": 32768,
-		"iS": 53246,
+		"iS": 137652,
 		"oA": 0,
-		"oAP": "\/img\/box-join.png",
+		"oAP": "\/img\/box-directions@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/box-join@2x.png": {
+		"ft": 32768,
+		"iS": 102146,
+		"oA": 0,
+		"oAP": "\/img\/box-join@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -343,9 +376,20 @@
 		},
 	"\/img\/box-products.png": {
 		"ft": 32768,
-		"iS": 58595,
+		"iS": 68374,
 		"oA": 0,
 		"oAP": "\/img\/box-products.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/box-products@2x.png": {
+		"ft": 32768,
+		"iS": 142131,
+		"oA": 0,
+		"oAP": "\/img\/box-products@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -533,6 +577,17 @@
 		"iS": 2559087,
 		"oA": 0,
 		"oAP": "\/img\/linens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo-left.png": {
+		"ft": 32768,
+		"iS": 96353,
+		"oA": 0,
+		"oAP": "\/img\/logo-left.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
