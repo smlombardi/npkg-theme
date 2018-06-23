@@ -234,4 +234,17 @@ function devdmbootstrap3_main_content_width() {
 
 if ( ! isset( $content_width ) ) $content_width = 800;
 
+// * SL 6/23/18: get the product type and append to body class
+function add_categories( $classes = '' ) {
+
+    $categories = get_the_terms(get_the_ID(), 'product_types');
+    foreach( $categories as $category ) {
+    $classes[] = 'category-'.$category->slug;
+
+
+}
+ return $classes;
+}
+add_filter( 'body_class', 'add_categories' );
+
 ?>

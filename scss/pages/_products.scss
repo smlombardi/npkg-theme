@@ -122,6 +122,13 @@
   }
 }
 
+.page-id-18 {
+
+  li.current_page_item a {
+  color: #e1b40a;
+  }
+}
+
 //////////////////////////////////////////////////
 // sub pages
 //////////////////////////////////////////////////
@@ -228,13 +235,32 @@
 /////////////////////////////
 
 //cookware & bakeware
-li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a {
-  color: rgb(121, 81, 110);
-}
+// li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor.menu-item-19 a {
+//   color: rgb(121, 81, 110);
+// }
 //
 // @mixin stripes($which) {
 //
 // }
+
+$active-colors: (
+  preparation: #a5b45d,
+  cool-tools: #e1925d,
+  cookware-bakeware: #a58898,
+  tabletop: #ebc660,
+  miscellaneous: #637197
+);
+
+@each $name, $var in $active-colors {
+  .category-#{$name} {
+    li.menu-item.menu-item-type-post_type.menu-item-object-page.current-page-ancestor{
+     a {
+        color: $var !important;
+      }
+    }
+  }
+}
+
 
 .cookware {
   .sub-stripe {
