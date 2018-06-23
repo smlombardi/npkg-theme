@@ -342,6 +342,9 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
   .page-candles & {
     background-image: url('../img/candles.jpg');
   }
+  .page-table-linens & {
+    background-image: url('../img/table-linens.jpg');
+  }
 
   @include breakpoint(papa-bear) {
     width: 720px;

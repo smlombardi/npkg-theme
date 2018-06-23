@@ -288,7 +288,7 @@
 		},
 	"\/img\/bar-tools.jpg": {
 		"ft": 16384,
-		"iS": 61449,
+		"iS": 54356,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/bar-tools.jpg",
@@ -357,6 +357,17 @@
 		"iS": 137652,
 		"oA": 0,
 		"oAP": "\/img\/box-directions@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/box-join.png": {
+		"ft": 32768,
+		"iS": 49764,
+		"oA": 0,
+		"oAP": "\/img\/box-join.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -440,6 +451,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/coffee-tea.jpg": {
+		"ft": 16384,
+		"iS": 52438,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/coffee-tea.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/coffee-tea.png": {
 		"ft": 32768,
 		"iS": 192755,
@@ -475,7 +497,7 @@
 		},
 	"\/img\/cookware-bakeware.jpg": {
 		"ft": 16384,
-		"iS": 227511,
+		"iS": 41395,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/cookware-bakeware.jpg",
@@ -486,7 +508,7 @@
 		},
 	"\/img\/cutting-surfaces.jpg": {
 		"ft": 16384,
-		"iS": 124894,
+		"iS": 169624,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/cutting-surfaces.jpg",
@@ -530,7 +552,7 @@
 		},
 	"\/img\/fine-cutlery.jpg": {
 		"ft": 16384,
-		"iS": 112573,
+		"iS": 46625,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/fine-cutlery.jpg",
@@ -541,7 +563,7 @@
 		},
 	"\/img\/flatware.jpg": {
 		"ft": 16384,
-		"iS": 302379,
+		"iS": 112783,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/flatware.jpg",
@@ -695,7 +717,7 @@
 		},
 	"\/img\/products-cookware.jpg": {
 		"ft": 16384,
-		"iS": 7624,
+		"iS": 11991,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/products-cookware.jpg",
@@ -706,7 +728,7 @@
 		},
 	"\/img\/products-cooltools.jpg": {
 		"ft": 16384,
-		"iS": 7916,
+		"iS": 10747,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/products-cooltools.jpg",
@@ -717,7 +739,7 @@
 		},
 	"\/img\/products-miscellaneous.jpg": {
 		"ft": 16384,
-		"iS": 7001,
+		"iS": 12979,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/products-miscellaneous.jpg",
@@ -728,7 +750,7 @@
 		},
 	"\/img\/products-preparation.jpg": {
 		"ft": 16384,
-		"iS": 6364,
+		"iS": 11619,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/products-preparation.jpg",
@@ -739,7 +761,7 @@
 		},
 	"\/img\/products-tabletop.jpg": {
 		"ft": 16384,
-		"iS": 7526,
+		"iS": 11675,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/products-tabletop.jpg",
@@ -750,7 +772,7 @@
 		},
 	"\/img\/small-electrics.jpg": {
 		"ft": 16384,
-		"iS": 250728,
+		"iS": 38241,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/small-electrics.jpg",
@@ -761,7 +783,7 @@
 		},
 	"\/img\/stemware-barware.jpg": {
 		"ft": 16384,
-		"iS": 285773,
+		"iS": 44498,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/stemware-barware.jpg",
@@ -770,9 +792,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/table-linens.jpg": {
+		"ft": 16384,
+		"iS": 53178,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/table-linens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/tools-gadgets.jpg": {
 		"ft": 16384,
-		"iS": 227615,
+		"iS": 47200,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/tools-gadgets.jpg",

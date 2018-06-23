@@ -173,6 +173,8 @@ li#menu-item-19.menu-item.menu-item-type-post_type.menu-item-object-page.current
 
 .page-candles .hero-image { background-image: url("../img/candles.jpg"); }
 
+.page-table-linens .hero-image { background-image: url("../img/table-linens.jpg"); }
+
 @media (max-width: 992px) { .hero-image { width: 720px; background-size: cover; } }
 
 @media (max-width: 480px) { .hero-image { width: 100%; background-repeat: no-repeat; background-position: center center; height: 270px; } }
