@@ -82,7 +82,7 @@
 
 .page-products .navbar-nav > li.active > a > a { color: #79516e; }
 
-.page-id-18 li.current_page_item a { color: #e1b40a; }
+.page-id-18 li.current_page_item a { color: firebrick; }
 
 .sub-stripe { width: 19.2%; margin-right: 0.5%; height: 448px; }
 
@@ -249,7 +249,7 @@
 
 @media (max-width: 480px) { .page-join .right { width: auto; background-size: cover; } }
 
-body { background-color: #eee; margin: 60px; }
+body { background-color: #fff; margin: 60px; }
 
 @media (max-width: 992px) { body { margin: 0; } }
 
