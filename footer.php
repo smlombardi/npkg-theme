@@ -7,7 +7,7 @@
       <br> 860.868.1264
     </div>
     <div class="col-md-4 pull-right text-right copyright">
-      Copyright New Preston Kitchen Goods, 2015
+      Copyright New Preston Kitchen Goods, 2018
     </div>
   </div>
 
