@@ -31,11 +31,17 @@
 
         <div class="row">
         <div class="toc-stripe sub-stripe first">
-          <img src="<?php bloginfo('template_directory'); ?>/img/products-<?= $field; ?>.jpg" class="img-responsive" alt="" />
-          <div class="ttl"><?= $field; ?></div>
-          <?php
-            $menuName = 'menu=' . $field;
-            wp_nav_menu( $menuName ); ?>
+           <div>
+            <img src="<?php bloginfo('template_directory'); ?>/img/products-<?= $field; ?>.jpg" class="img-responsive" alt="" />
+                <div class="ttl"><?= $field; ?></div>
+                <?php
+                    $menuName = 'menu=' . $field;
+                    wp_nav_menu( $menuName ); ?>
+          </div>
+          <div class="back-link">
+              <a href="/products/"><em>Back to</em> PRODUCTS</a>
+          </div>
+            
         </div>
         <div class="toc-stripe sub-stripe stripe2 second">
           <div class="ttl"><?php the_title(); ?></div>
