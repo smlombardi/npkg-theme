@@ -24,7 +24,7 @@
 
 .page-about header { background-color: #e7d893; }
 
-.page-about .navbar-nav > li.active > a { color: #e1b40a; }
+.page-about .navbar-nav > li.active > a { color: firebrick; }
 
 .page-about .left { background-color: #f1e9c5; min-height: 450px; padding: 5px 60px 10px; }
 
@@ -191,7 +191,7 @@
 
 .page-directions header { background-color: #e7d893; }
 
-.page-directions .navbar-nav > li.active > a { color: #e1b40a; }
+.page-directions .navbar-nav > li.active > a { color: firebrick; }
 
 .page-directions .left { background-color: #f1e9c5; min-height: 448px; padding: 10px 40px; font-size: 12px; }
 
@@ -213,7 +213,7 @@
 
 .page-contact header { background-color: #e7d893; }
 
-.page-contact .navbar-nav > li.active > a { color: #e1b40a; }
+.page-contact .navbar-nav > li.active > a { color: firebrick; }
 
 .page-contact .left { background-color: #f1e9c5; min-height: 450px; padding: 5px 60px 10px; }
 
@@ -235,7 +235,7 @@
 
 .page-join header { background-color: #e7d893; }
 
-.page-join .navbar-nav > li.active > a { color: #e1b40a; }
+.page-join .navbar-nav > li.active > a { color: firebrick; }
 
 .page-join .left { background-color: #f1e9c5; min-height: 450px; padding: 5px 60px 10px; }
 
