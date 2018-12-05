@@ -43,9 +43,15 @@ body {
   border: 1px solid #dbdbdb !important;
 }
 
-#rev_slider_1_1 {
-  background-color: #dbdbdb !important;
-}
+
+
+  #rev_slider_1_1 {
+    background-color: #dbdbdb !important;
+      @include breakpoint(baby-bear) {
+        background-color: #fff !important;
+      }
+  }
+
 
 a {
   color: #000;
@@ -62,7 +68,7 @@ a {
     justify-content: center;
     @include breakpoint(baby-bear) {
       flex-direction: column;
-      // height: 165px;
+      height: 210px;
       padding: 10px;
     }
   }
@@ -123,6 +129,9 @@ header {
   }
   @include breakpoint(baby-bear) {
     padding: 0 15px 30px;
+    > div:first-child {
+      margin-top: 100px;
+    }
   }
 }
 
@@ -144,3 +153,5 @@ header {
     }
   }
 }
+
+
